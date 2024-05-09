@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>To-Do List</h1>
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <select id="prioritySelect">
+            <option value="" selected>Select Priority</option> <!-- Default option -->
+            <option value="low">Low Priority</option>
+            <option value="medium">Medium Priority</option>
+            <option value="high">High Priority</option>
+        </select>
+        <input type="date" id="dueDateInput">
+        <button onclick="addTask()">Add Task</button>
+        <h2>Tasks: </h2>
+        <ul id="taskList"></ul>
+        <h2>Completed Tasks: </h2>
+        <ul id="completedList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
