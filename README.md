@@ -13,4 +13,4 @@ To mark a task as completed, click the 'Mark as Completed' button next to the ta
 To delete a task, click the 'Delete' button next to the task you wish to remove.
 
 ## Website:
-Project Link: https://github.com/bashirumer/todo-list-app
+Project Link:  https://bashirumer.github.io/TO-DO-LIST-APPLICATION/
